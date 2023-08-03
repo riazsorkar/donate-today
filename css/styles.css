@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.primary-btn{
+    background-color: #ff6666;
+    color: #ffff;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    padding: 10px 15px;
+    font-weight: 500;
+    font-size: 20px;
+}
+section{
+    margin: 60px 20px;
+}
+.sec-center{
+    text-align: center;
+}
+
+/* Headder Css */
+header{
+    background: url(../images/donation13.jpg);
+    background-color: #ffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    position: relative;
+
+}
+.hero{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-text{
+    color: #ffff;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: Inter;
+    line-break: auto;
+    margin-bottom: 10px;
+}
+.hero-desp{
+    color: #ffff;
+    font-family: Inter;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-family: Poppins;
+    line-height: 28px;
+    font-size: 15px;
+}
+
+/* Donate today Sectin Css */
+
+.donate-today{
+    background-color: rgb(253, 253, 253);
+    
+}
+.head-title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.dec{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;  
+    margin-bottom: 10px;  
+}
+
+.how-don{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.donate-box{
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    padding: 25px;
+    font-weight: 600px;
+}
+.donate-box-border{
+    border-radius: 5px;
+    background-color: #FEE;;
+    padding: 25px;
+    border: 2px solid;
+    border-color: #ff6666;
+}
+.input-don{
+    margin-bottom: 20px;
+    width: 50%;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+/* Our Donate Plan Section */
+.odp{
+    background-color: #ffff;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+    
+
+.care{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px;
+}
+.care-box-one{
+    border-radius: 5px;
+    background: rgba(79, 157, 166, 0.10);
+    padding: 20px 15px;
+    margin: 0px 15px;
+}
+.care-box-two{
+    border-radius: 5px;
+    background: rgba(255, 89, 89, 0.10);
+    padding: 20px 15px;
+    margin: 0px 15px;
+}
+.care-box-three{
+    border-radius: 5px;
+    background: #FFF4D6;;
+    padding: 20px 15px;
+}
+.care-title{
+    font-size: 15px;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+.care-dec{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: gray;
+    margin: 20px 0px;
+    padding-right: 20px;
+}
+.icon-css{
+    height: 35px;
+}
+
+/* Their lives depend on your donation Section css */
+.tldoy{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.ld{
+    margin-right: 20px;
+}
+.ld-two{
+    margin-left: 20px;
+}
+/* Get My update */
+.gmu{
+    background-color: #ffff;
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.subscribe{
+    background: #FFF4D6;
+    padding: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+.subcribe-box{
+    border-radius: 5px 0px 0px 5px;
+    background: #D9D9D9;
+    border: none;
+    color: #AA9F9F;
+    width: 50%;
+    height: 40px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+/* Footer */
+.foot{
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    padding: 30px;
+}
+.footer-hero{
+    color: #ff6666;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Lobster;
+}
